@@ -1,0 +1,19 @@
+<img className='circle-outer__image'src={ME} alt="it's me! Raitis'"/>
+
+OUTER CIRCLE!!!
+
+
+https://codepen.io/mdt2/pen/VMMmNX
+
+Hamburger menu
+
+
+BG COLOR 
+
+  background: linear-gradient(130deg, #35333f 50%, #232129 50%);
+
+
+ANIMATIONS
+
+
+https://csshint.com/animated-css-hover-effects/

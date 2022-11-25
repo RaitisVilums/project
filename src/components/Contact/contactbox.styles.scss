@@ -1,0 +1,43 @@
+.section-contacts {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper-2 {
+  width: 34rem;
+  height: 20rem;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 5rem;
+  transition: all 0.4s ease-in-out;
+  background: #0275af;
+
+  &:hover {
+    background: transparent;
+  }
+
+  &-heading {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: white;
+  }
+  &-para {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    color: white;
+  }
+
+  &-icon {
+    font-size: 3rem;
+    margin-top: 1rem;
+    color: white;
+  }
+
+  &-btn {
+    padding: 0.7rem 3rem !important;
+  }
+}

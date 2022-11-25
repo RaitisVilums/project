@@ -1,0 +1,21 @@
+.contact-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact-heading {
+  font-size: 5rem;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 7rem;
+  margin-top: 5rem;
+}
+
+.section {
+  display: grid;
+  width: 40%;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+}

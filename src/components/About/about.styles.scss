@@ -1,0 +1,64 @@
+.about-wrapper {
+  //   height: 100vh;
+  // background: linear-gradient(-140deg, #373f51 50%, #008dd5 80%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // padding: 10rem 2rem;#232129 80%
+
+  &-text {
+    // background: red;
+    padding: 30rem 10rem;
+    color: white;
+  }
+  &-photo {
+    // background: green;
+    padding: 12rem 10rem;
+  }
+  &-skills {
+    // background: blue;
+    padding: 2rem 7rem;
+    color: white;
+    font-size: 2rem;
+  }
+}
+
+.photo-wrapper {
+  width: 40rem;
+  height: 58rem;
+  background: rgb(112, 111, 111);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //   border: 2px solid #232129;
+  border-radius: 4rem;
+}
+
+.image {
+  overflow: hidden;
+  border-radius: 5rem;
+  border: 1px solid rgb(112, 111, 111);
+  transform: rotate(8deg);
+  transition: all 0.4s ease-in-out;
+  &:hover {
+    transform: rotate(0deg);
+  }
+}
+
+.btn-wrapper {
+  display: flex;
+  gap: 4rem;
+  // padding-bottom: 1rem;
+}
+
+.about {
+  &-heading {
+    font-size: 5rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+  }
+  &-para {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+}
