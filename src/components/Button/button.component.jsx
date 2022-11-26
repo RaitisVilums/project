@@ -3,7 +3,8 @@ import "./button.styles.scss";
 
 function Button(props) {
   const ref = useRef(null);
-  const { href, download, target, onClick, children, className } = props;
+  const { href, download, target, onClick, children, className, onSubmit } =
+    props;
   const classN = `btn ${className}`;
 
   return (
@@ -14,6 +15,7 @@ function Button(props) {
       className={classN}
       target={target}
       onClick={onClick}
+      onSubmit={onSubmit}
     >
       {children}
     </a>
