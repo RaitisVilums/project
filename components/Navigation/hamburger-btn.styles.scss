@@ -1,0 +1,49 @@
+.btn-burger {
+  &::after {
+    content: "";
+    position: fixed;
+    width: 3rem;
+    height: 4px;
+    top: 9rem;
+    left: 10rem;
+    background: #fcfcfc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+  }
+
+  &::before {
+    content: "";
+    position: fixed;
+    top: 7.5rem;
+    left: 10rem;
+    width: 3rem;
+    height: 4px;
+    background: #fcfcfc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+  }
+}
+
+.icon {
+  padding: 2rem;
+  position: fixed;
+  top: 6.5rem;
+  left: 9.5rem;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.active {
+  top: 6.2rem;
+}
+
+.active .btn-burger::before {
+  top: 8rem;
+  transform: rotate(45deg);
+}
+
+.active .btn-burger::after {
+  top: 8rem;
+  transform: rotate(135deg);
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}

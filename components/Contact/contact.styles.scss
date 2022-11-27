@@ -1,0 +1,25 @@
+.contact-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact-heading {
+  font-size: 5rem;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 7rem;
+  margin-top: 5rem;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 1200px) {
+  .contact-heading {
+    font-size: 4rem;
+  }
+}

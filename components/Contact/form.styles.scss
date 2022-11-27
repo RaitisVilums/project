@@ -1,0 +1,35 @@
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 5rem;
+  &-textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid white;
+    resize: none;
+    color: white;
+    font-family: inherit;
+    font-size: 1.6rem;
+  }
+}
+.form-btn {
+  padding: 1.5rem 4rem;
+  font-size: 1.4rem;
+  color: white;
+  margin-top: 2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  font-family: inherit;
+  border: 1px solid white;
+  transition: all 0.4s ease-in-out;
+  background: transparent;
+  text-decoration: none;
+  &:hover {
+    background: rgb(197, 197, 197);
+    color: black;
+    border-color: transparent;
+  }
+}

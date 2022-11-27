@@ -1,0 +1,35 @@
+.projects-wrapper {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.projects-heading {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 10rem;
+  margin-top: 5rem;
+}
+
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+}
+
+@media (max-width: 1200px) {
+  .projects-heading {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    margin-top: 7rem;
+  }
+
+  .grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
