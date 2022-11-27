@@ -7,18 +7,30 @@ function NavItems(props) {
     <Fragment>
       <nav className={`nav-bar ${status ? " nav-bar-animation" : ""}`}>
         <ul className={`nav-bar__items ${status ? " showMenu" : " hideMenu"}`}>
-          <li className={`nav-bar__item ${status ? " text-animation" : ""}`}>
+          <a
+            href="#"
+            className={`nav-bar__item ${status ? " text-animation" : ""}`}
+          >
             Home
-          </li>
-          <li className={`nav-bar__item ${status ? " text-animation" : ""}`}>
+          </a>
+          <a
+            href="#about"
+            className={`nav-bar__item ${status ? " text-animation" : ""}`}
+          >
             About
-          </li>
-          <li className={`nav-bar__item ${status ? " text-animation" : ""}`}>
+          </a>
+          <a
+            href="#projects"
+            className={`nav-bar__item ${status ? " text-animation" : ""}`}
+          >
             Projects
-          </li>
-          <li className={`nav-bar__item ${status ? " text-animation" : ""}`}>
+          </a>
+          <a
+            href="#contacts"
+            className={`nav-bar__item ${status ? " text-animation" : ""}`}
+          >
             Contacts
-          </li>
+          </a>
         </ul>
       </nav>
     </Fragment>

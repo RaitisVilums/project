@@ -8,7 +8,7 @@ import DOWNLOAD from "../../cv.pdf";
 function About() {
   return (
     <Fragment>
-      <div className="about-wrapper">
+      <div id="about" className="about-wrapper">
         <div className="about-wrapper-text">
           <h1 className="about-heading">About me</h1>
           <p className="about-para">

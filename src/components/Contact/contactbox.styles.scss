@@ -1,16 +1,16 @@
 .section-contacts {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
   align-items: center;
   flex-direction: column;
 }
 
 .wrapper-2 {
-  width: 34rem;
+  width: 30rem;
   height: 20rem;
   text-align: center;
-  border: 2px solid white;
+  border: 1px solid white;
   border-radius: 5rem;
   transition: all 0.4s ease-in-out;
   background: #0275af;
@@ -21,13 +21,13 @@
 
   &-heading {
     font-size: 2.5rem;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+    // margin-top: 0.5rem;
+    margin-bottom: 1rem;
     color: white;
   }
   &-para {
     font-size: 1.6rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     color: white;
   }
 
@@ -38,6 +38,6 @@
   }
 
   &-btn {
-    padding: 0.7rem 3rem !important;
+    padding: 0.7rem 2rem !important;
   }
 }

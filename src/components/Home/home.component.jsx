@@ -7,7 +7,7 @@ import "./home.styles.scss";
 function HomePage() {
   return (
     <Fragment>
-      <div className="home-page">
+      <div id="#" className="home-page">
         <Aside />
         <div className="home-page__heading-wrapper">
           <div className="home-page__heading-1">
